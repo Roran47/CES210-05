@@ -50,3 +50,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+obj/CES210-05.csproj.nuget.dgspec.json
+obj/CES210-05.csproj.nuget.g.props
+obj/CES210-05.csproj.nuget.g.targets
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+obj/Debug/net6.0/CES210-05.AssemblyInfo.cs
+obj/Debug/net6.0/CES210-05.AssemblyInfoInputs.cache
+obj/Debug/net6.0/CES210-05.assets.cache
+obj/Debug/net6.0/CES210-05.csproj.AssemblyReference.cache
+obj/Debug/net6.0/CES210-05.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net6.0/CES210-05.GlobalUsings.g.cs
