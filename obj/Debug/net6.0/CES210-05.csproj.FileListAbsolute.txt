@@ -1,0 +1,15 @@
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.exe
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.deps.json
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.runtimeconfig.json
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\ref\CES210-05.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.pdb
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.csproj.AssemblyReference.cache
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.AssemblyInfoInputs.cache
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.AssemblyInfo.cs
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.csproj.CoreCompileInputs.cache
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\ref\CES210-05.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.pdb
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.genruntimeconfig.cache
