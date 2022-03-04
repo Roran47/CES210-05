@@ -2,7 +2,7 @@ using System;
 
 namespace generalNamespace;
 
-public class ScoreaDisplay
+public class ScoreDisplay
 {
     
 }
