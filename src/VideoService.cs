@@ -17,7 +17,7 @@ public class VideoService
             {
                 for(int j = 0; j <= scrnHeight / 5; j++)
                 {
-                    DrawRectangle(grid[i] [j].x, grid[i] [j].y, grid[i] [j].squareWidth, grid[i] [j].squareHeight, BLUE);
+                    DrawRectangle(grid[i][j].x, grid[i][j].y, grid[i][j].squareWidth, grid[i] [j].squareHeight, grid[i][j].squareColor);
                 }
             }
             Raylib.EndDrawing();
