@@ -7,11 +7,13 @@ public class Director
 {
      public void startGame()
     {
+        TheGrid theGrid = new TheGrid();
+        theGrid.makeGrid();
         var vd = new VideoService();
         Raylib.InitWindow(1000, 1000, "norT");
          while (!Raylib.WindowShouldClose())
         {
-            vd.draw();
+            vd.draw(theGrid.getGrid());
         }
         
     }
