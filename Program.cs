@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using generalNamespace;
 
 internal class Program
