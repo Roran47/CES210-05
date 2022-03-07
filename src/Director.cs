@@ -19,6 +19,7 @@ public class Director
          player2.changeColor(RED);
         var vd = new VideoService();
         Raylib.InitWindow(1000, 1000, "norT");
+         SetTimer();
          while (!Raylib.WindowShouldClose())
         {
             if(action) {
