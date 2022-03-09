@@ -8,7 +8,7 @@ public class Collision
     {
         int squareX = playerX / 5;
         int squareY = playerY / 5;
-
+        return false;
         
     }
 }
