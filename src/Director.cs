@@ -24,7 +24,6 @@ public class Director
         {
             if(action) {
                   vd.draw(theGrid.getGrid());
-                
                   action = false;
             }
           
