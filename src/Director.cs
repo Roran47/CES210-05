@@ -13,6 +13,9 @@ public class Director
     {
         TheGrid theGrid = new TheGrid();
         theGrid.makeGrid();
+        KeyboardService keyboardService = new KeyboardService();
+        keyboardService.playerOneDirection = 1;    // Down
+        keyboardService.playerTwoDirection = 0;    // Up
         Bike player1 = new Bike();
         Bike player2 = new Bike();
         player1.setX(200);
@@ -33,6 +36,8 @@ public class Director
                   vd.drawBike(player2);
                   action = false;
                   Raylib.EndDrawing();
+                  keyboardService.movePlayerOne();
+                  keyboardService.movePlayerTwo();
             }
           
         }
