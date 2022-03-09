@@ -31,8 +31,8 @@ public class Director
                   vd.draw(theGrid.getGrid());
                   vd.drawBike(player1);
                   vd.drawBike(player2);
-                  Collision.checkCollision(player1,theGrid);
-                  Collision.checkCollision(player2,theGrid);
+                  Collision.checkCollision(player1,theGrid.getGrid());
+                  Collision.checkCollision(player2,theGrid.getGrid());
                   action = false;
                   Raylib.EndDrawing();
             }
