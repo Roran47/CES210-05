@@ -15,7 +15,11 @@ public class Director
         theGrid.makeGrid();
         Bike player1 = new Bike();
         Bike player2 = new Bike();
+        player1.setX(200);
+        player1.setY(200);
         player1.changeColor(BLUE);
+        player2.setX(800);
+        player2.setY(800);
          player2.changeColor(RED);
         var vd = new VideoService();
         Raylib.InitWindow(1000, 1000, "norT");
@@ -24,6 +28,8 @@ public class Director
         {
             if(action) {
                   vd.draw(theGrid.getGrid());
+                  vd.drawBike(player1);
+                  vd.drawBike(player2);
                   action = false;
             }
           

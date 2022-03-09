@@ -23,7 +23,7 @@ public class VideoService
             Raylib.EndDrawing();
         
     }
-    public void drawHead(Bike bike) {
-       
+    public void drawBike(Bike bike) {
+       DrawRectangle(bike.bikeX,bike.bikeY,bike.bikeWidth,bike.bikeHeight,bike.bikeColor);
     }
 }
