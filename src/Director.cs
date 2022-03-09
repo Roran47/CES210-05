@@ -27,10 +27,12 @@ public class Director
          while (!Raylib.WindowShouldClose())
         {
             if(action) {
+                 Raylib.BeginDrawing();
                   vd.draw(theGrid.getGrid());
                   vd.drawBike(player1);
                   vd.drawBike(player2);
                   action = false;
+                  Raylib.EndDrawing();
             }
           
         }
