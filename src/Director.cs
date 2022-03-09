@@ -34,6 +34,15 @@ public class Director
                   vd.draw(theGrid.getGrid());
                   vd.drawBike(player1);
                   vd.drawBike(player2);
+                  if(Collision.checkCollision(player1,theGrid.getGrid())) {
+                      timer.Dispose();
+                      // Call Gameover Method
+                  }
+                   if(  Collision.checkCollision(player2,theGrid.getGrid())) {
+                       timer.Dispose();
+                       // Call Gameover Method
+                   }
+                
                   action = false;
                   Raylib.EndDrawing();
                   keyboardService.movePlayerOne();
