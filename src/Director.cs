@@ -12,6 +12,7 @@ public class Director
      public void startGame()
     {
         TheGrid theGrid = new TheGrid();
+        keyboard_service keyb = new keyboard_service();
         theGrid.makeGrid();
         Bike player1 = new Bike();
         Bike player2 = new Bike();
@@ -26,17 +27,21 @@ public class Director
          SetTimer();
          while (!Raylib.WindowShouldClose())
         {
+            keyb.checkDirections(player1);
+            keyb.checkDirections(player2);
             if(action) {
                  Raylib.BeginDrawing();
                   vd.draw(theGrid.getGrid());
+                  player1.moveBike();
+                //  player2.moveBike();
                   vd.drawBike(player1);
                   vd.drawBike(player2);
                   if(Collision.checkCollision(player1,theGrid.getGrid())) {
-                      timer.Dispose();
+                      //timer.Dispose();
                       // Call Gameover Method
                   }
                    if(  Collision.checkCollision(player2,theGrid.getGrid())) {
-                       timer.Dispose();
+                      //timer.Dispose();
                        // Call Gameover Method
                    }
                 
@@ -48,7 +53,7 @@ public class Director
         
     }
      static void SetTimer() {
-            timer = new System.Timers.Timer(20);
+            timer = new System.Timers.Timer(100);
 
             timer.Elapsed += OnTimedEvent;
             timer.AutoReset = true;

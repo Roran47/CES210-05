@@ -4,40 +4,51 @@ namespace generalNamespace;
 public class keyboard_service
 {
 
-    public void playerOneRight()
+    public void checkDirections(Bike bike) {
+        playerOneLeft(bike);
+        playerOneRight(bike);
+        playerOneUp(bike);
+        playerOneDown(bike);
+        playerTwoLeft(bike);
+        playerTwoRight(bike);
+    }
+
+    public void playerOneRight(Bike bike)
     {
         // if(x1<795){
-        if (Raylib.IsKeyDown(KeyboardKey.KEY_D))
+        if (Raylib.IsKeyReleased(KeyboardKey.KEY_D))
         {
+            
+            bike.direction = 0;
             //x1+=5;
         }
     }
 
-    public void playerOneLeft()
+    public void playerOneLeft(Bike bike)
     {
         // if(x1<795){
-        if (Raylib.IsKeyDown(KeyboardKey.KEY_A))
+        if (Raylib.IsKeyReleased(KeyboardKey.KEY_A))
         {
-            //
+             bike.direction = 2;
         }
     }
 
-    // public void playerOneUp()
-    // {
-    //     // if(x1<795){
-    //     if (Raylib.IsKeyDown(KeyboardKey.KEY_W))
-    //     {
-    //         //
-    //     }
-    // }
-    // public void playerOneDown()
-    // {
-    //     // if(x1<795){
-    //     if (Raylib.IsKeyDown(KeyboardKey.KEY_S))
-    //     {
-    //         //
-    //     }
-    // }
+     public void playerOneUp(Bike bike)
+     {
+        // if(x1<795){
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_W))
+        {
+              bike.direction = 3;
+         }
+     }
+     public void playerOneDown(Bike bike)
+     {
+         // if(x1<795){
+         if (Raylib.IsKeyDown(KeyboardKey.KEY_S))
+        {
+               bike.direction = 1;
+         }
+     }
 
 //Player 2
     // public void playerTwoDown()
@@ -58,7 +69,7 @@ public class keyboard_service
     //     }
     // }
 
-            public void playerTwoLeft()
+            public void playerTwoLeft(Bike bike)
     {
         // if(x1<795){
         if (Raylib.IsKeyDown(KeyboardKey.KEY_LEFT))
@@ -67,7 +78,7 @@ public class keyboard_service
         }
     }
 
-            public void playerTwoRight()
+            public void playerTwoRight(Bike bike)
     {
         // if(x1<795){
         if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT))
