@@ -12,8 +12,11 @@ public class Director
      public void startGame()
     {
         TheGrid theGrid = new TheGrid();
-        keyboard_service keyb = new keyboard_service();
+        KeyboardService keyb = new();
         theGrid.makeGrid();
+        KeyboardService keyboardService = new KeyboardService();
+        keyboardService.playerOneDirection = 1;    // Down
+        keyboardService.playerTwoDirection = 0;    // Up
         Bike player1 = new Bike();
         Bike player2 = new Bike();
         player1.setX(200);
@@ -47,6 +50,8 @@ public class Director
                 
                   action = false;
                   Raylib.EndDrawing();
+                  keyboardService.movePlayerOne();
+                  keyboardService.movePlayerTwo();
             }
           
         }
