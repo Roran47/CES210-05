@@ -12,6 +12,7 @@ public static class Collision
         int squareX = player.bikeX / 5;
         int squareY = player.bikeY / 5;
         if(thegrid[squareX][squareY].squareColor.Equals(BLACK)){
+            thegrid[squareX][squareY].squareColor = player.bikeColor;
             return false;
             
         }else{

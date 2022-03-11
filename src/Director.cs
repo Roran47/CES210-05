@@ -15,8 +15,6 @@ public class Director
         KeyboardService keyb = new();
         theGrid.makeGrid();
         KeyboardService keyboardService = new KeyboardService();
-        keyboardService.playerOneDirection = 1;    // Down
-        keyboardService.playerTwoDirection = 0;    // Up
         Bike player1 = new Bike();
         Bike player2 = new Bike();
         player1.setX(200);
@@ -31,34 +29,37 @@ public class Director
          while (!Raylib.WindowShouldClose())
         {
             keyb.checkDirections(player1);
-            keyb.checkDirections(player2);
+            keyb.checkDirections2(player2);
             if(action) {
                  Raylib.BeginDrawing();
                   vd.draw(theGrid.getGrid());
                   player1.moveBike();
-                //  player2.moveBike();
+                 player2.moveBike();
                   vd.drawBike(player1);
                   vd.drawBike(player2);
                   if(Collision.checkCollision(player1,theGrid.getGrid())) {
                       //timer.Dispose();
                       // Call Gameover Method
+                  }else {
+
                   }
                    if(  Collision.checkCollision(player2,theGrid.getGrid())) {
                       //timer.Dispose();
                        // Call Gameover Method
+                   }else {
+
                    }
                 
                   action = false;
                   Raylib.EndDrawing();
-                  keyboardService.movePlayerOne();
-                  keyboardService.movePlayerTwo();
+                  
             }
           
         }
         
     }
      static void SetTimer() {
-            timer = new System.Timers.Timer(100);
+            timer = new System.Timers.Timer(50);
 
             timer.Elapsed += OnTimedEvent;
             timer.AutoReset = true;
