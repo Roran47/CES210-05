@@ -38,6 +38,7 @@ public class Director
                   vd.drawBike(player1);
                   vd.drawBike(player2);
                   if(Collision.checkCollision(player1,theGrid.getGrid())) {
+                      
                       //timer.Dispose();
                       // Call Gameover Method
                   }else {
