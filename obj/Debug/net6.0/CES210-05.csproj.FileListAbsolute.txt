@@ -19,24 +19,24 @@
 /Users/jefferyhatch/Documents/CES210-05/obj/Debug/net6.0/CES210-05.pdb
 /Users/jefferyhatch/Documents/CES210-05/obj/Debug/net6.0/CES210-05.genruntimeconfig.cache
 /Users/jefferyhatch/Documents/CES210-05/obj/Debug/net6.0/ref/CES210-05.dll
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/CES210-05.exe
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/CES210-05.deps.json
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/CES210-05.runtimeconfig.json
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/CES210-05.dll
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/ref/CES210-05.dll
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/CES210-05.pdb
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/Raylib-cs.dll
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/runtimes/linux-x64/native/libraylib.so
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/runtimes/osx-x64/native/libraylib.dylib
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/runtimes/win-x64/native/raylib.dll
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/bin/Debug/net6.0/runtimes/win-x86/native/raylib.dll
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.csproj.AssemblyReference.cache
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.GeneratedMSBuildEditorConfig.editorconfig
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.AssemblyInfoInputs.cache
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.AssemblyInfo.cs
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.csproj.CoreCompileInputs.cache
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.csproj.CopyComplete
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.dll
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/ref/CES210-05.dll
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.pdb
-D:/Dylan (User)/Documents/School/CSE210/CSE210-Projects/team/CES210-05/obj/Debug/net6.0/CES210-05.genruntimeconfig.cache
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.exe
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.deps.json
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.runtimeconfig.json
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\ref\CES210-05.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\CES210-05.pdb
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\Raylib-cs.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.csproj.AssemblyReference.cache
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.AssemblyInfoInputs.cache
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.AssemblyInfo.cs
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.csproj.CoreCompileInputs.cache
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.csproj.CopyComplete
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\ref\CES210-05.dll
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.pdb
+D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\CES210-05\obj\Debug\net6.0\CES210-05.genruntimeconfig.cache
