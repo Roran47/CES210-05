@@ -15,33 +15,68 @@ public class Bike
     public int direction = 0;
     public void changeColor(Color color)
     {
-       bikeColor = color;
+        bikeColor = color;
     }
-    public void setX(int x) {
+    public void setX(int x)
+    {
         bikeX = x;
     }
-    public void setY(int y) {
+    public void setY(int y)
+    {
         bikeX = y;
     }
 
-    public void moveBike() {
+    public void moveBike()
+    {
         Console.WriteLine(direction);
-        switch(direction) {
+
+
+        switch (direction)
+        {
             case 0:
-            bikeX += 5;
-            break;
+             if (bikeX == 995)
+                {
+                    // call end game
+                }
+                else
+                {
+                bikeX += 5;
+                }
+                break;
 
-            case 1: 
+            case 1:
+             if (bikeY == 995)
+                {
+                    // call end game
+                }
+                else
+                {
                 bikeY += 5;
-            break;
+                }
+                break;
 
-            case 2: 
-                bikeX -= 5;
-            break;
+            case 2:
+                if (bikeX == 0)
+                {
+                    // call end game
+                }
+                else
+                {
+                    bikeX -= 5;
+                }
+
+                break;
 
             case 3:
+             if (bikeY == 0)
+                {
+                    // call end game
+                }
+                else
+                {
                 bikeY -= 5;
-            break;
+                }
+                break;
         }
     }
 
