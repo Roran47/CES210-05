@@ -9,6 +9,7 @@ public class Director
 {
        private static System.Timers.Timer timer;
      static bool action = false;
+     public static bool collided = false;
      public void startGame()
     {
         TheGrid theGrid = new TheGrid();
@@ -33,23 +34,21 @@ public class Director
             if(action) {
                  Raylib.BeginDrawing();
                   vd.draw(theGrid.getGrid());
-                  player1.moveBike();
-                 player2.moveBike();
+                  if(collided == false){
+                    player1.moveBike();
+                    player2.moveBike();
+                  }
                   vd.drawBike(player1);
                   vd.drawBike(player2);
                   if(Collision.checkCollision(player1,theGrid.getGrid())) {
-                      timer.Enabled = false;
-                      Raylib.EndDrawing();
-                      //timer.Dispose();
-                      // Call Gameover Method
+                      collided = true;
+                      vd.gameOver();
                   }else {
 
                   }
                    if(  Collision.checkCollision(player2,theGrid.getGrid())) {
-                       timer.Enabled = false;
-                       Raylib.EndDrawing();
-                      //timer.Dispose();
-                       // Call Gameover Method
+                       collided = true;
+                       vd.gameOver();
                    }else {
 
                    }

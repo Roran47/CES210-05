@@ -36,7 +36,7 @@ public class Bike
             case 0:
              if (bikeX == 995)
                 {
-                    // call end game
+                    Director.collided = true;
                 }
                 else
                 {
@@ -47,7 +47,7 @@ public class Bike
             case 1:
              if (bikeY == 995)
                 {
-                    // call end game
+                    Director.collided = true;
                 }
                 else
                 {
@@ -58,7 +58,7 @@ public class Bike
             case 2:
                 if (bikeX == 0)
                 {
-                    // call end game
+                    Director.collided = true;
                 }
                 else
                 {
@@ -70,7 +70,7 @@ public class Bike
             case 3:
              if (bikeY == 0)
                 {
-                    // call end game
+                    Director.collided = true;
                 }
                 else
                 {

@@ -28,4 +28,8 @@ public class VideoService
        DrawRectangle(bike.bikeX,bike.bikeY,bike.bikeWidth,bike.bikeHeight,bike.bikeColor);
         
     }
+
+    public void gameOver() {
+        Raylib.DrawText("GAME OVER", 300, 300, 60, WHITE);
+    }
 }
