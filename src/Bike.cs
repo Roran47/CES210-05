@@ -28,7 +28,7 @@ public class Bike
 
     public void moveBike()
     {
-        Console.WriteLine(direction);
+      
 
 
         switch (direction)
