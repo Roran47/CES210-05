@@ -72,6 +72,7 @@ public class KeyboardService
          // if(x1<795){
          if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN))
          {
+             if(bike.direction != 3)
              bike.direction = 1;
          }
      }
@@ -81,6 +82,7 @@ public class KeyboardService
          // if(x1<795){
          if (Raylib.IsKeyDown(KeyboardKey.KEY_UP))
          {
+             if(bike.direction != 1)
              bike.direction = 3;
          }
      }
@@ -90,6 +92,7 @@ public class KeyboardService
         // if(x1<795){
         if (Raylib.IsKeyDown(KeyboardKey.KEY_LEFT))
         {
+            if(bike.direction != 0)
             bike.direction = 2;
         }
     }
@@ -99,6 +102,7 @@ public class KeyboardService
         // if(x1<795){
         if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT))
         {
+            if(bike.direction != 2)
             bike.direction = 0;
         }
     }
