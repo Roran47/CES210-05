@@ -13,7 +13,7 @@ public class Bike
     public Color bikeColor = BLUE;
 
     public int direction = 0;
-    public void changeColor(Color color)
+    public virtual void changeColor(Color color)
     {
         bikeColor = color;
     }
@@ -26,7 +26,7 @@ public class Bike
         bikeX = y;
     }
 
-    public void moveBike()
+    public virtual void moveBike()
     {
       
 
