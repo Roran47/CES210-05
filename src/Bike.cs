@@ -17,6 +17,14 @@ public class Bike
     {
         bikeColor = color;
     }
+    public virtual void moveX()
+    {
+        bikeX +=5;
+    }
+    public virtual void moveY()
+    {
+      bikeX +=5;
+    }
     public void setX(int x)
     {
         bikeX = x;

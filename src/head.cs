@@ -14,5 +14,11 @@ public class head : Bike
         bikeX +=5;
         bikeY += 5;
     }
+    public override void moveX() {
+        bikeX += 10;
+    }
+    public override void moveY() {
+        bikeY += 10;
+    }
     
 }
